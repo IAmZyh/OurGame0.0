@@ -1,2 +1,16 @@
-# Auto detect text files and perform LF normalization
+# Unity meta文件强制使用LF，检出不自动转为CRLF
+Assets/**/*.meta text eol=lf
+
+# C#脚本也建议LF
+Assets/**/*.cs text eol=lf
+
+# 二进制资源，禁止Git处理换行
+*.fbx binary
+*.png binary
+*.jpg binary
+*.psd binary
+*.wav binary
+*.mp3 binary
+
+# 其他文本文件默认自动处理
 * text=auto
