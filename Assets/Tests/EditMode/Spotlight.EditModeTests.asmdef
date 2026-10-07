@@ -1,0 +1,22 @@
+{
+  "name": "Spotlight.EditModeTests",
+  "rootNamespace": "Spotlight.Tests.EditMode",
+  "references": [
+    "Spotlight.Runtime",
+    "nunit.framework"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

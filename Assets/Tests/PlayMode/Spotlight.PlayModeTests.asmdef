@@ -1,0 +1,20 @@
+{
+  "name": "Spotlight.PlayModeTests",
+  "rootNamespace": "Spotlight.Tests.PlayMode",
+  "references": [
+    "Spotlight.Runtime",
+    "nunit.framework"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
