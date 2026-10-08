@@ -48,15 +48,15 @@ public class HealthBar : MonoBehaviour
     }
 
     // 测试用：按A扣血，按D回血
-    /*void Update()
+    void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A))
+        /*if (Input.GetKeyDown(KeyCode.A))
         {
             ChangeHealth(-10f);
         }
         if (Input.GetKeyDown(KeyCode.D))
         {
             ChangeHealth(10f);
-        }
-    }*/
+        }*/
+    }
 }
