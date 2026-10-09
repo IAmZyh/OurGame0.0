@@ -9,7 +9,7 @@ public class HealthBar : MonoBehaviour
     [Header("最大血量")]
     public float maxHealth = 100f;
     [Header("当前血量")]
-    public float currentHealth;
+    public float currentHealth=100f;
 
     void Start()
     {
@@ -50,13 +50,13 @@ public class HealthBar : MonoBehaviour
     // 测试用：按A扣血，按D回血
     void Update()
     {
-        /*if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKeyDown(KeyCode.A))
         {
             ChangeHealth(-10f);
         }
         if (Input.GetKeyDown(KeyCode.D))
         {
             ChangeHealth(10f);
-        }*/
+        }
     }
 }
